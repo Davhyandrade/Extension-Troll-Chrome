@@ -13,8 +13,8 @@ const infinite = document.querySelectorAll('.infinite');
 const replaceImages = (url,scale,infinite2,rotate,infinite1,inputRotate) => {
 
     const images = document.querySelectorAll('img');
-    images.forEach((image) => image.src = url);
-
+    images.forEach((image) => image.src = url);	
+    
     //======================================================
 
     //---------< CSS - "Criação e implementação do CSS" >
