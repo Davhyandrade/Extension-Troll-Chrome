@@ -1,0 +1,96 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Troll Chrome</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="position-field-extension">
+
+        <div class="fields">
+            <form class="form-image">
+                <div class="title">
+                    <div>
+                        <h1>Images</h1>
+                        <img class="btn-closed" src="assets/img/btn_closed.png" alt="Botao Fechado">
+                    </div>
+                    <input class="btn-images" type="submit" value="Submit">
+                </div>
+                <div class="form">
+                    <div class="div-input-checkbox">
+                        <input class="checkbox" type="checkbox" name="rotate" id="rotate">
+                        <label for="rotate">Rotate</label>
+                        <div class="options-input-checkbox">
+                            <input type="text" placeholder="Graus" id="input-rotate">
+                            <input type="checkbox" name="infinite" id="infinite1" class="infinite">
+                            <label class="label-infinite" for="infinite1">Infinite</label>
+                        </div>
+                    </div>
+                    <div class="div-input-checkbox">
+                        <input class="checkbox" type="checkbox" name="scale" id="scale">
+                        <label for="scale">Scale</label>
+                        <div class="options-input-checkbox">
+                            <input type="checkbox" name="infinite" id="infinite2" class="infinite">
+                            <label class="label-infinite" for="infinit2">Infinite</label>
+                        </div>
+                    </div>
+                    <input class="input-images-url" type="search" placeholder="Insira a URL da imagem aqui">
+                </div>
+            </form>
+        </div>
+
+        <div class="fields">
+            <form class="form-background">
+                <div class="title">
+                    <div>
+                        <h1>Background</h1>
+                        <img class="btn-closed" src="assets/img/btn_closed.png" alt="Botao Fechado">
+                    </div>
+                    <input class="btn-images" type="submit" value="Submit">
+                </div>
+                <div class="form">
+                    <div>                        
+                        <label for="input-color">Color</label>
+                        <input type="color" id="input-color">
+                    </div>
+                    <input class="input-images-background" type="search" placeholder="Insira a URL da imagem aqui">
+                </div>
+            </form>
+        </div>
+
+        <div class="fields">
+            <form class="form-text">
+                <div class="title">
+                    <div>
+                        <h1>Text</h1>
+                        <img class="btn-closed" src="assets/img/btn_closed.png" alt="Botao Fechado">
+                    </div>
+                    <input class="btn-images" type="submit" value="Submit">
+                </div>
+                <div class="form">
+                    <div>
+                        <input class="checkbox" type="checkbox" name="checkbox-title" id="checkbox-title">
+                        <label for="checkbox-title">Title</label>
+                        <input class="checkbox" type="checkbox" name="checkbox-text" id="checkbox-text">
+                        <label for="checkbox-text">Text</label>
+                    </div>
+                    <div>
+                        <label for="input-color-text">Color</label>
+                        <input id="input-color-text" type="color">
+                    </div>
+                    <div>
+                        <label for="input-tamanho">Tamanho</label>
+                        <input id="input-tamanho" type="text">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
