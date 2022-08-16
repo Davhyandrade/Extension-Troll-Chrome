@@ -219,15 +219,15 @@ titles[0].addEventListener('click', () => {
     if (isActive) {
       isActive = false;
       forms[0].style.display = 'block';
-      buttonClosed[0].src = 'assets/img/btn_open.png';
+      buttonClosed[0].src = 'https://i.postimg.cc/J7QFN1zJ/btn-open.png';
       forms[1].style.display = 'none';
-      buttonClosed[1].src = 'assets/img/btn_closed.png';
+      buttonClosed[1].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
       forms[2].style.display = 'none';
-      buttonClosed[2].src = 'assets/img/btn_closed.png';
+      buttonClosed[2].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
     } else {
       isActive = true;
       forms[0].style.display = 'none';
-      buttonClosed[0].src = 'assets/img/btn_closed.png';
+      buttonClosed[0].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
     }
 });
 
@@ -236,15 +236,15 @@ titles[1].addEventListener('click', () => {
     if (isActive) {
       isActive = false;
       forms[1].style.display = 'block';
-      buttonClosed[1].src = 'assets/img/btn_open.png';
+      buttonClosed[1].src = 'https://i.postimg.cc/J7QFN1zJ/btn-open.png';
       forms[0].style.display = 'none';
-      buttonClosed[0].src = 'assets/img/btn_closed.png';
+      buttonClosed[0].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
       forms[2].style.display = 'none';
-      buttonClosed[2].src = 'assets/img/btn_closed.png';
+      buttonClosed[2].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
     } else {
       isActive = true;
       forms[1].style.display = 'none';
-      buttonClosed[1].src = 'assets/img/btn_closed.png';
+      buttonClosed[1].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
     }
 });
 
@@ -252,14 +252,14 @@ titles[2].addEventListener('click', () => {
     if (isActive) {
       isActive = false;
       forms[2].style.display = 'block';
-      buttonClosed[2].src = 'assets/img/btn_open.png';
+      buttonClosed[2].src = 'https://i.postimg.cc/J7QFN1zJ/btn-open.png';
       forms[0].style.display = 'none';
-      buttonClosed[0].src = 'assets/img/btn_closed.png';
+      buttonClosed[0].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
       forms[1].style.display = 'none';
-      buttonClosed[1].src = 'assets/img/btn_closed.png';
+      buttonClosed[1].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
     } else {
       isActive = true;
       forms[2].style.display = 'none';
-      buttonClosed[2].src = 'assets/img/btn_closed.png';
+      buttonClosed[2].src = 'https://i.postimg.cc/7hqQFRmf/btn-closed.png';
     }
 });
