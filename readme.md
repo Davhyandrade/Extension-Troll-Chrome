@@ -9,3 +9,7 @@ Extensão ao qual customiza a aba aberta do navegador, alterando `Textos`, `Back
 
 Como o nome já sugere, é uma extensão em que, mesmo que possa alterar a aba do navegador, ela é voltada ao lado mais informal, ou seja, `Trollar` a janela aberta e descontrair.  
 
+
+
+https://user-images.githubusercontent.com/109045257/187325568-09ce5b63-6216-43a1-a72a-42488e528312.mp4
+
