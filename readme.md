@@ -5,6 +5,14 @@
 
 <img src="https://user-images.githubusercontent.com/109045257/183553101-13cf2f90-d3b6-433c-9369-e5b4060c78ea.png" width="100%">
 
+Desenvolvido pelo:
+
+* HTML
+
+* CSS
+
+* JavaScript
+
 Extensão ao qual customiza a aba aberta do navegador, alterando `Textos`, `Background` e `Imagens`.
 
 ##
